@@ -25,7 +25,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Configure Master VM Settings
   master.vm.provider :virtualbox do |settings|
-    settings.memory = 4096
+    settings.memory = 4608
     settings.name = "c7master_2016.1.2"
     settings.cpus = 2
   end
